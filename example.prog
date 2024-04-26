@@ -1,0 +1,7 @@
+edge(1,3).
+edge(2,4).
+edge(3,5).
+path(X,Y) :- edge(X,Y).
+path(X,Y) :- edge(X,Z), path(Z,Y).
+
+goal__reachable :- path(1,5).
