@@ -40,7 +40,7 @@ def parse_line(line: str):
         head = parse_predicate(head_str.strip())
         body = [
             parse_predicate(pred.strip() + ")")
-            for pred in body_str.strip().rstrip(".").split("), ")
+            for pred in body_str.strip().rstrip(".").split("),")
             if pred
         ]
         return Rule(head, body)
@@ -77,6 +77,7 @@ def main():
         "pddl_type_product(lco).",
         "pddl_type_object(lco).",
         "may__interface(rat__a, lco).",
+        "at(Var_truck,Var_loc__to) :- pddl_type_object(Var_truck),pddl_type_object(Var_loc__from),pddl_type_object(Var_loc__to),pddl_type_object(Var_city),truck(Var_truck),location(Var_loc__from),location(Var_loc__to),city(Var_city),at(Var_truck,Var_loc__from),in__city(Var_loc__from,Var_city),in__city(Var_loc__to,Var_city).",
         "goal__reachable :- on(b2, a3), on(b5, a2), normal(s12), normal(s13).",
         "first(Var_batch__atom__in, Var_pipe) :- pddl_type_pipe(Var_pipe), pddl_type_batch__atom(Var_batch__atom__in), pddl_type_area(Var_from__area), on(Var_batch__atom__in, Var_from__area).",
     ]
