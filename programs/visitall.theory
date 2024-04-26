@@ -1,0 +1,25 @@
+pddl_type_place(loc__x0__y0).
+pddl_type_object(loc__x0__y0).
+pddl_type_place(loc__x0__y1).
+pddl_type_object(loc__x0__y1).
+pddl_type_place(loc__x1__y0).
+pddl_type_object(loc__x1__y0).
+pddl_type_place(loc__x1__y1).
+pddl_type_object(loc__x1__y1).
+connected(loc__x0__y1,loc__x0__y0).
+connected(loc__x0__y0,loc__x1__y0).
+at__robot(loc__x1__y1).
+connected(loc__x0__y1,loc__x1__y1).
+connected(loc__x1__y1,loc__x0__y1).
+connected(loc__x0__y0,loc__x0__y1).
+connected(loc__x1__y0,loc__x1__y1).
+connected(loc__x1__y0,loc__x0__y0).
+visited(loc__x1__y1).
+connected(loc__x1__y1,loc__x1__y0).
+equals(loc__x0__y0,loc__x0__y0).
+equals(loc__x0__y1,loc__x0__y1).
+equals(loc__x1__y0,loc__x1__y0).
+equals(loc__x1__y1,loc__x1__y1).
+at__robot(Var_nextpos) :- pddl_type_place(Var_curpos),pddl_type_place(Var_nextpos),at__robot(Var_curpos),connected(Var_curpos,Var_nextpos).
+visited(Var_nextpos) :- pddl_type_place(Var_curpos),pddl_type_place(Var_nextpos),at__robot(Var_curpos),connected(Var_curpos,Var_nextpos).
+goal__reachable :- visited(loc__x0__y0),visited(loc__x0__y1),visited(loc__x1__y0),visited(loc__x1__y1).
