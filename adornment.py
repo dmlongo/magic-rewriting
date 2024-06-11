@@ -1,8 +1,8 @@
 from dataclasses import dataclass
-from typing import List, Set
+from typing import List, Set, Tuple
 from collections import deque
 
-from models import DatalogProgram, Predicate, Rule
+from models import DatalogProgram, Fact, Predicate, Rule
 
 
 @dataclass
@@ -54,7 +54,9 @@ def determine_case_based_binding(args: List[str]) -> str:
     return "".join(pattern)
 
 
-def adorn_query(datalog_program: DatalogProgram, query: Rule) -> List[AdornedPredicate]:
+def adorn_query(
+    datalog_program: DatalogProgram, query: Rule
+) -> Tuple[List[AdornedPredicate], List[AdornedPredicate]]:
     """
     Create an initial list of adorned predicates from the query based on argument types.
 
@@ -63,14 +65,26 @@ def adorn_query(datalog_program: DatalogProgram, query: Rule) -> List[AdornedPre
         query (Rule): The query containing predicates to adorn.
 
     Returns:
-        List[AdornedPredicate]: A list of adorned predicates.
+        Tuple[List[AdornedPredicate], List[AdornedPredicate]]: A tuple containing:
+            - A list of unique adorned predicates.
+            - A list of adorned predicates present in the query.
     """
-    adorned_predicates = []
+    adorned_predicates: List[AdornedPredicate] = []
+    seen_predicates: Set[Tuple[str, str]] = set()
+    adorned_query_atoms: List[AdornedPredicate] = []
+
     for predicate in query.body:
         if datalog_program.is_predicate_intensional(predicate):
             binding_pattern = determine_case_based_binding(predicate.args)
-            adorned_predicates.append(adorn_predicate(predicate, binding_pattern))
-    return adorned_predicates
+            adorned_predicate = adorn_predicate(predicate, binding_pattern)
+            adorned_query_atoms.append(adorned_predicate)
+
+            seen_key = (adorned_predicate.name, adorned_predicate.binding_pattern)
+            if seen_key not in seen_predicates:
+                seen_predicates.add(seen_key)
+                adorned_predicates.append(adorned_predicate)
+
+    return adorned_predicates, adorned_query_atoms
 
 
 def generate_binding_from_set(args: List[str], bound_variables: Set[str]) -> str:
@@ -168,6 +182,18 @@ def adorn_rule(
     return Rule(new_head, new_body)
 
 
+def adorn_facts(facts, adorned_predicates_tuples):
+    adorned_facts = []
+    for name, binding_pattern in adorned_predicates_tuples:
+        relevant_facts = [fact for fact in facts if fact.predicate.name == name]
+        for fact in relevant_facts:
+            adorned_fact = Fact(
+                AdornedPredicate(name, fact.predicate.args, binding_pattern)
+            )
+            adorned_facts.append(adorned_fact)
+    return adorned_facts
+
+
 def adorn_datalog_program(
     datalog_program: DatalogProgram, reorder_body: bool = False
 ) -> tuple:
@@ -181,7 +207,9 @@ def adorn_datalog_program(
     Returns:
         tuple: A tuple containing a list of adorned rules, ready for optimized execution, and the adorned predicates.
     """
-    adorned_predicates = adorn_query(datalog_program, datalog_program.query)
+    adorned_predicates, adorned_query_atoms = adorn_query(
+        datalog_program, datalog_program.query
+    )
     adorned_predicates_queue = deque(adorned_predicates)
     seen = {predicate.adorned_name() for predicate in adorned_predicates_queue}
 
@@ -207,7 +235,7 @@ def adorn_datalog_program(
                         adorned_predicates_queue.append(predicate)
                         seen.add(predicate.adorned_name())
 
-    return adorned_rules, adorned_predicates
+    return adorned_rules, adorned_query_atoms, adorned_predicates
 
 
 def example_program1():

@@ -6,25 +6,29 @@ from models import Fact, Predicate, Rule
 
 
 def generate_magic_facts_and_rules(
+    query_adorned_atoms: List[AdornedPredicate],
     query_adorned_predicates: List[AdornedPredicate],
-) -> Tuple[List[Fact], List[Rule]]:
+) -> Tuple[List[Predicate], List[Rule]]:
     """
-    For each adorned predicate derived from the query, generate a corresponding magic seed fact
-    and a query rule.
+    Generate magic seed facts and query rules for each adorned predicate derived from the query.
 
     Args:
-        query_adorned_predicates (List[AdornedPredicate]): Adorned predicates from the query rule.
+        query_adorned_atoms (List[AdornedPredicate]): List of adorned atoms from the query.
+        query_adorned_predicates (List[AdornedPredicate]): List of adorned predicates from the query.
 
     Returns:
-        Tuple[List[Fact], List[Rule]]: A tuple containing a list of magic seed facts and a list of query rules.
+        Tuple[List[Predicate], List[Rule]]: A tuple containing:
+            - A list of magic seed facts.
+            - A list of query rules.
     """
-    magic_seed_facts = []
-    query_rules = []
+    magic_seed_facts: List[Predicate] = []
+    query_rules: List[Rule] = []
 
-    for adorned_predicate in query_adorned_predicates:
-        magic_seed_fact = create_magic_seed(adorned_predicate)
+    for adorned_atom in query_adorned_atoms:
+        magic_seed_fact = create_magic_seed(adorned_atom)
         magic_seed_facts.append(magic_seed_fact)
 
+    for adorned_predicate in query_adorned_predicates:
         variable_names = generate_variable_names("Var_", len(adorned_predicate.args))
         predicate_head = Predicate(adorned_predicate.name, variable_names)
         predicate_body = AdornedPredicate(
