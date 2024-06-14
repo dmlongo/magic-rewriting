@@ -1,0 +1,338 @@
+pddl_type_carbon(c1).
+pddl_type_chemical_atom(c1).
+pddl_type_hc(c1).
+pddl_type_hcno(c1).
+pddl_type_object(c1).
+pddl_type_r_group(c1).
+pddl_type_carbon(c10).
+pddl_type_chemical_atom(c10).
+pddl_type_hc(c10).
+pddl_type_hcno(c10).
+pddl_type_object(c10).
+pddl_type_r_group(c10).
+pddl_type_carbon(c11).
+pddl_type_chemical_atom(c11).
+pddl_type_hc(c11).
+pddl_type_hcno(c11).
+pddl_type_object(c11).
+pddl_type_r_group(c11).
+pddl_type_carbon(c12).
+pddl_type_chemical_atom(c12).
+pddl_type_hc(c12).
+pddl_type_hcno(c12).
+pddl_type_object(c12).
+pddl_type_r_group(c12).
+pddl_type_carbon(c13).
+pddl_type_chemical_atom(c13).
+pddl_type_hc(c13).
+pddl_type_hcno(c13).
+pddl_type_object(c13).
+pddl_type_r_group(c13).
+pddl_type_carbon(c2).
+pddl_type_chemical_atom(c2).
+pddl_type_hc(c2).
+pddl_type_hcno(c2).
+pddl_type_object(c2).
+pddl_type_r_group(c2).
+pddl_type_carbon(c3).
+pddl_type_chemical_atom(c3).
+pddl_type_hc(c3).
+pddl_type_hcno(c3).
+pddl_type_object(c3).
+pddl_type_r_group(c3).
+pddl_type_carbon(c4).
+pddl_type_chemical_atom(c4).
+pddl_type_hc(c4).
+pddl_type_hcno(c4).
+pddl_type_object(c4).
+pddl_type_r_group(c4).
+pddl_type_carbon(c5).
+pddl_type_chemical_atom(c5).
+pddl_type_hc(c5).
+pddl_type_hcno(c5).
+pddl_type_object(c5).
+pddl_type_r_group(c5).
+pddl_type_carbon(c6).
+pddl_type_chemical_atom(c6).
+pddl_type_hc(c6).
+pddl_type_hcno(c6).
+pddl_type_object(c6).
+pddl_type_r_group(c6).
+pddl_type_carbon(c7).
+pddl_type_chemical_atom(c7).
+pddl_type_hc(c7).
+pddl_type_hcno(c7).
+pddl_type_object(c7).
+pddl_type_r_group(c7).
+pddl_type_carbon(c8).
+pddl_type_chemical_atom(c8).
+pddl_type_hc(c8).
+pddl_type_hcno(c8).
+pddl_type_object(c8).
+pddl_type_r_group(c8).
+pddl_type_carbon(c9).
+pddl_type_chemical_atom(c9).
+pddl_type_hc(c9).
+pddl_type_hcno(c9).
+pddl_type_object(c9).
+pddl_type_r_group(c9).
+pddl_type_hydrogen(h1).
+pddl_type_chemical_atom(h1).
+pddl_type_hc(h1).
+pddl_type_hcno(h1).
+pddl_type_object(h1).
+pddl_type_r_group(h1).
+pddl_type_hydrogen(h12).
+pddl_type_chemical_atom(h12).
+pddl_type_hc(h12).
+pddl_type_hcno(h12).
+pddl_type_object(h12).
+pddl_type_r_group(h12).
+pddl_type_hydrogen(h19).
+pddl_type_chemical_atom(h19).
+pddl_type_hc(h19).
+pddl_type_hcno(h19).
+pddl_type_object(h19).
+pddl_type_r_group(h19).
+pddl_type_hydrogen(h2).
+pddl_type_chemical_atom(h2).
+pddl_type_hc(h2).
+pddl_type_hcno(h2).
+pddl_type_object(h2).
+pddl_type_r_group(h2).
+pddl_type_hydrogen(h20).
+pddl_type_chemical_atom(h20).
+pddl_type_hc(h20).
+pddl_type_hcno(h20).
+pddl_type_object(h20).
+pddl_type_r_group(h20).
+pddl_type_hydrogen(h21).
+pddl_type_chemical_atom(h21).
+pddl_type_hc(h21).
+pddl_type_hcno(h21).
+pddl_type_object(h21).
+pddl_type_r_group(h21).
+pddl_type_hydrogen(h22).
+pddl_type_chemical_atom(h22).
+pddl_type_hc(h22).
+pddl_type_hcno(h22).
+pddl_type_object(h22).
+pddl_type_r_group(h22).
+pddl_type_hydrogen(h23).
+pddl_type_chemical_atom(h23).
+pddl_type_hc(h23).
+pddl_type_hcno(h23).
+pddl_type_object(h23).
+pddl_type_r_group(h23).
+pddl_type_hydrogen(h24).
+pddl_type_chemical_atom(h24).
+pddl_type_hc(h24).
+pddl_type_hcno(h24).
+pddl_type_object(h24).
+pddl_type_r_group(h24).
+pddl_type_hydrogen(h3).
+pddl_type_chemical_atom(h3).
+pddl_type_hc(h3).
+pddl_type_hcno(h3).
+pddl_type_object(h3).
+pddl_type_r_group(h3).
+pddl_type_hydrogen(h4).
+pddl_type_chemical_atom(h4).
+pddl_type_hc(h4).
+pddl_type_hcno(h4).
+pddl_type_object(h4).
+pddl_type_r_group(h4).
+pddl_type_hydrogen(h5).
+pddl_type_chemical_atom(h5).
+pddl_type_hc(h5).
+pddl_type_hcno(h5).
+pddl_type_object(h5).
+pddl_type_r_group(h5).
+pddl_type_hydrogen(h51).
+pddl_type_chemical_atom(h51).
+pddl_type_hc(h51).
+pddl_type_hcno(h51).
+pddl_type_object(h51).
+pddl_type_r_group(h51).
+pddl_type_hydrogen(h6).
+pddl_type_chemical_atom(h6).
+pddl_type_hc(h6).
+pddl_type_hcno(h6).
+pddl_type_object(h6).
+pddl_type_r_group(h6).
+pddl_type_oxygen(o2).
+pddl_type_chemical_atom(o2).
+pddl_type_hcno(o2).
+pddl_type_object(o2).
+pddl_type_r_group(o2).
+pddl_type_oxygen(o3).
+pddl_type_chemical_atom(o3).
+pddl_type_hcno(o3).
+pddl_type_object(o3).
+pddl_type_r_group(o3).
+pddl_type_oxygen(o4).
+pddl_type_chemical_atom(o4).
+pddl_type_hcno(o4).
+pddl_type_object(o4).
+pddl_type_r_group(o4).
+pddl_type_oxygen(o5).
+pddl_type_chemical_atom(o5).
+pddl_type_hcno(o5).
+pddl_type_object(o5).
+pddl_type_r_group(o5).
+pddl_type_oxygen(o50).
+pddl_type_chemical_atom(o50).
+pddl_type_hcno(o50).
+pddl_type_object(o50).
+pddl_type_r_group(o50).
+pddl_type_oxygen(o6).
+pddl_type_chemical_atom(o6).
+pddl_type_hcno(o6).
+pddl_type_object(o6).
+pddl_type_r_group(o6).
+bond(c8,o5).
+bond(c6,c7).
+bond(c7,c6).
+bond(h6,c3).
+bond(o2,c5).
+bond(c2,c11).
+bond(c12,c13).
+bond(c1,h2).
+bond(c7,c8).
+bond(c8,c7).
+bond(c3,h6).
+bond(c13,h24).
+bond(h24,c13).
+bond(c3,h4).
+bond(c1,h1).
+doublebond(c6,o3).
+bond(c9,o5).
+doublebond(c12,o6).
+doublebond(o4,c8).
+bond(o5,c9).
+bond(c11,h21).
+bond(c1,c2).
+bond(c3,c2).
+bond(h22,c13).
+bond(c13,c12).
+bond(c2,c1).
+bond(h21,c11).
+bond(c4,c5).
+bond(c12,c11).
+bond(c6,o2).
+bond(c7,h19).
+bond(h4,c3).
+bond(c13,h23).
+bond(h20,c11).
+bond(c2,c7).
+bond(c11,h20).
+bond(c7,c2).
+bond(o2,c6).
+bond(c10,c9).
+bond(h2,c1).
+bond(c11,c2).
+bond(h19,c7).
+bond(o50,h51).
+bond(o50,h12).
+bond(o5,c8).
+bond(h12,o50).
+doublebond(c8,o4).
+bond(c13,h22).
+bond(c5,o2).
+doublebond(o3,c6).
+bond(c9,c10).
+bond(h1,c1).
+bond(h51,o50).
+doublebond(o6,c12).
+bond(h3,c1).
+bond(h5,c3).
+bond(c11,c12).
+bond(c2,c3).
+bond(c3,h5).
+bond(c1,h3).
+bond(c5,c4).
+bond(h23,c13).
+equals(c1,c1).
+equals(c10,c10).
+equals(c11,c11).
+equals(c12,c12).
+equals(c13,c13).
+equals(c2,c2).
+equals(c3,c3).
+equals(c4,c4).
+equals(c5,c5).
+equals(c6,c6).
+equals(c7,c7).
+equals(c8,c8).
+equals(c9,c9).
+equals(h1,h1).
+equals(h12,h12).
+equals(h19,h19).
+equals(h2,h2).
+equals(h20,h20).
+equals(h21,h21).
+equals(h22,h22).
+equals(h23,h23).
+equals(h24,h24).
+equals(h3,h3).
+equals(h4,h4).
+equals(h5,h5).
+equals(h51,h51).
+equals(h6,h6).
+equals(o2,o2).
+equals(o3,o3).
+equals(o4,o4).
+equals(o5,o5).
+equals(o50,o50).
+equals(o6,o6).
+bond(Var_h_7,Var_o_1) :- pddl_type_hydrogen(Var_h_7),pddl_type_carbon(Var_c_3),pddl_type_oxygen(Var_o_6),pddl_type_oxygen(Var_o_1),pddl_type_hydrogen(Var_h_5),pddl_type_carbon(Var_c_4),pddl_type_oxygen(Var_o_2),pddl_type_carbon(Var_c_8),bond(Var_h_5,Var_o_1),bond(Var_c_3,Var_o_1),doublebond(Var_o_2,Var_c_3),bond(Var_c_4,Var_c_3),bond(Var_o_6,Var_c_8),bond(Var_h_7,Var_o_6).
+bond(Var_o_1,Var_h_7) :- pddl_type_hydrogen(Var_h_7),pddl_type_carbon(Var_c_3),pddl_type_oxygen(Var_o_6),pddl_type_oxygen(Var_o_1),pddl_type_hydrogen(Var_h_5),pddl_type_carbon(Var_c_4),pddl_type_oxygen(Var_o_2),pddl_type_carbon(Var_c_8),bond(Var_h_5,Var_o_1),bond(Var_c_3,Var_o_1),doublebond(Var_o_2,Var_c_3),bond(Var_c_4,Var_c_3),bond(Var_o_6,Var_c_8),bond(Var_h_7,Var_o_6).
+bond(Var_c_3,Var_o_6) :- pddl_type_hydrogen(Var_h_7),pddl_type_carbon(Var_c_3),pddl_type_oxygen(Var_o_6),pddl_type_oxygen(Var_o_1),pddl_type_hydrogen(Var_h_5),pddl_type_carbon(Var_c_4),pddl_type_oxygen(Var_o_2),pddl_type_carbon(Var_c_8),bond(Var_h_5,Var_o_1),bond(Var_c_3,Var_o_1),doublebond(Var_o_2,Var_c_3),bond(Var_c_4,Var_c_3),bond(Var_o_6,Var_c_8),bond(Var_h_7,Var_o_6).
+bond(Var_o_6,Var_c_3) :- pddl_type_hydrogen(Var_h_7),pddl_type_carbon(Var_c_3),pddl_type_oxygen(Var_o_6),pddl_type_oxygen(Var_o_1),pddl_type_hydrogen(Var_h_5),pddl_type_carbon(Var_c_4),pddl_type_oxygen(Var_o_2),pddl_type_carbon(Var_c_8),bond(Var_h_5,Var_o_1),bond(Var_c_3,Var_o_1),doublebond(Var_o_2,Var_c_3),bond(Var_c_4,Var_c_3),bond(Var_o_6,Var_c_8),bond(Var_h_7,Var_o_6).
+doublebond(Var_o_1,Var_c_7) :- pddl_type_oxygen(Var_o_10),pddl_type_oxygen(Var_o_1),pddl_type_hydrogen(Var_h_3),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_7),pddl_type_hydrogen(Var_h_2),pddl_type_oxygen(Var_o_11),pddl_type_oxygen(Var_o_9),pddl_type_carbon(Var_c_8),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_6),bond(Var_h_3,Var_o_1),bond(Var_h_2,Var_o_1),bond(Var_c_5,Var_c_4),bond(Var_c_7,Var_c_4),bond(Var_c_5,Var_c_6),doublebond(Var_o_9,Var_c_5),bond(Var_o_10,Var_c_7),doublebond(Var_o_11,Var_c_7),bond(Var_c_8,Var_o_10).
+doublebond(Var_c_7,Var_o_1) :- pddl_type_oxygen(Var_o_10),pddl_type_oxygen(Var_o_1),pddl_type_hydrogen(Var_h_3),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_7),pddl_type_hydrogen(Var_h_2),pddl_type_oxygen(Var_o_11),pddl_type_oxygen(Var_o_9),pddl_type_carbon(Var_c_8),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_6),bond(Var_h_3,Var_o_1),bond(Var_h_2,Var_o_1),bond(Var_c_5,Var_c_4),bond(Var_c_7,Var_c_4),bond(Var_c_5,Var_c_6),doublebond(Var_o_9,Var_c_5),bond(Var_o_10,Var_c_7),doublebond(Var_o_11,Var_c_7),bond(Var_c_8,Var_o_10).
+bond(Var_h_2,Var_o_10) :- pddl_type_oxygen(Var_o_10),pddl_type_oxygen(Var_o_1),pddl_type_hydrogen(Var_h_3),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_7),pddl_type_hydrogen(Var_h_2),pddl_type_oxygen(Var_o_11),pddl_type_oxygen(Var_o_9),pddl_type_carbon(Var_c_8),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_6),bond(Var_h_3,Var_o_1),bond(Var_h_2,Var_o_1),bond(Var_c_5,Var_c_4),bond(Var_c_7,Var_c_4),bond(Var_c_5,Var_c_6),doublebond(Var_o_9,Var_c_5),bond(Var_o_10,Var_c_7),doublebond(Var_o_11,Var_c_7),bond(Var_c_8,Var_o_10).
+bond(Var_o_10,Var_h_2) :- pddl_type_oxygen(Var_o_10),pddl_type_oxygen(Var_o_1),pddl_type_hydrogen(Var_h_3),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_7),pddl_type_hydrogen(Var_h_2),pddl_type_oxygen(Var_o_11),pddl_type_oxygen(Var_o_9),pddl_type_carbon(Var_c_8),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_6),bond(Var_h_3,Var_o_1),bond(Var_h_2,Var_o_1),bond(Var_c_5,Var_c_4),bond(Var_c_7,Var_c_4),bond(Var_c_5,Var_c_6),doublebond(Var_o_9,Var_c_5),bond(Var_o_10,Var_c_7),doublebond(Var_o_11,Var_c_7),bond(Var_c_8,Var_o_10).
+bond(Var_h_3,Var_c_4) :- pddl_type_oxygen(Var_o_10),pddl_type_oxygen(Var_o_1),pddl_type_hydrogen(Var_h_3),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_7),pddl_type_hydrogen(Var_h_2),pddl_type_oxygen(Var_o_11),pddl_type_oxygen(Var_o_9),pddl_type_carbon(Var_c_8),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_6),bond(Var_h_3,Var_o_1),bond(Var_h_2,Var_o_1),bond(Var_c_5,Var_c_4),bond(Var_c_7,Var_c_4),bond(Var_c_5,Var_c_6),doublebond(Var_o_9,Var_c_5),bond(Var_o_10,Var_c_7),doublebond(Var_o_11,Var_c_7),bond(Var_c_8,Var_o_10).
+bond(Var_c_4,Var_h_3) :- pddl_type_oxygen(Var_o_10),pddl_type_oxygen(Var_o_1),pddl_type_hydrogen(Var_h_3),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_7),pddl_type_hydrogen(Var_h_2),pddl_type_oxygen(Var_o_11),pddl_type_oxygen(Var_o_9),pddl_type_carbon(Var_c_8),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_6),bond(Var_h_3,Var_o_1),bond(Var_h_2,Var_o_1),bond(Var_c_5,Var_c_4),bond(Var_c_7,Var_c_4),bond(Var_c_5,Var_c_6),doublebond(Var_o_9,Var_c_5),bond(Var_o_10,Var_c_7),doublebond(Var_o_11,Var_c_7),bond(Var_c_8,Var_o_10).
+bond(Var_c_3,Var_c_7) :- pddl_type_carbon(Var_c_3),pddl_type_hydrogen(Var_h_5),pddl_type_carbon(Var_c_7),pddl_type_carbon(Var_c_6),pddl_type_carbon(Var_c_1),pddl_type_oxygen(Var_o_4),pddl_type_carbon(Var_c_2),pddl_type_carbon(Var_c_8),pddl_type_oxygen(Var_o_9),doublebond(Var_o_4,Var_c_1),bond(Var_c_2,Var_c_1),bond(Var_c_1,Var_c_3),bond(Var_h_5,Var_c_3),doublebond(Var_c_7,Var_c_6),bond(Var_c_8,Var_c_6),doublebond(Var_o_9,Var_c_8).
+bond(Var_c_7,Var_c_3) :- pddl_type_carbon(Var_c_3),pddl_type_hydrogen(Var_h_5),pddl_type_carbon(Var_c_7),pddl_type_carbon(Var_c_6),pddl_type_carbon(Var_c_1),pddl_type_oxygen(Var_o_4),pddl_type_carbon(Var_c_2),pddl_type_carbon(Var_c_8),pddl_type_oxygen(Var_o_9),doublebond(Var_o_4,Var_c_1),bond(Var_c_2,Var_c_1),bond(Var_c_1,Var_c_3),bond(Var_h_5,Var_c_3),doublebond(Var_c_7,Var_c_6),bond(Var_c_8,Var_c_6),doublebond(Var_o_9,Var_c_8).
+bond(Var_h_5,Var_c_6) :- pddl_type_carbon(Var_c_3),pddl_type_hydrogen(Var_h_5),pddl_type_carbon(Var_c_7),pddl_type_carbon(Var_c_6),pddl_type_carbon(Var_c_1),pddl_type_oxygen(Var_o_4),pddl_type_carbon(Var_c_2),pddl_type_carbon(Var_c_8),pddl_type_oxygen(Var_o_9),doublebond(Var_o_4,Var_c_1),bond(Var_c_2,Var_c_1),bond(Var_c_1,Var_c_3),bond(Var_h_5,Var_c_3),doublebond(Var_c_7,Var_c_6),bond(Var_c_8,Var_c_6),doublebond(Var_o_9,Var_c_8).
+bond(Var_c_6,Var_h_5) :- pddl_type_carbon(Var_c_3),pddl_type_hydrogen(Var_h_5),pddl_type_carbon(Var_c_7),pddl_type_carbon(Var_c_6),pddl_type_carbon(Var_c_1),pddl_type_oxygen(Var_o_4),pddl_type_carbon(Var_c_2),pddl_type_carbon(Var_c_8),pddl_type_oxygen(Var_o_9),doublebond(Var_o_4,Var_c_1),bond(Var_c_2,Var_c_1),bond(Var_c_1,Var_c_3),bond(Var_h_5,Var_c_3),doublebond(Var_c_7,Var_c_6),bond(Var_c_8,Var_c_6),doublebond(Var_o_9,Var_c_8).
+bond(Var_c_7,Var_c_6) :- pddl_type_carbon(Var_c_3),pddl_type_hydrogen(Var_h_5),pddl_type_carbon(Var_c_7),pddl_type_carbon(Var_c_6),pddl_type_carbon(Var_c_1),pddl_type_oxygen(Var_o_4),pddl_type_carbon(Var_c_2),pddl_type_carbon(Var_c_8),pddl_type_oxygen(Var_o_9),doublebond(Var_o_4,Var_c_1),bond(Var_c_2,Var_c_1),bond(Var_c_1,Var_c_3),bond(Var_h_5,Var_c_3),doublebond(Var_c_7,Var_c_6),bond(Var_c_8,Var_c_6),doublebond(Var_o_9,Var_c_8).
+bond(Var_c_6,Var_c_7) :- pddl_type_carbon(Var_c_3),pddl_type_hydrogen(Var_h_5),pddl_type_carbon(Var_c_7),pddl_type_carbon(Var_c_6),pddl_type_carbon(Var_c_1),pddl_type_oxygen(Var_o_4),pddl_type_carbon(Var_c_2),pddl_type_carbon(Var_c_8),pddl_type_oxygen(Var_o_9),doublebond(Var_o_4,Var_c_1),bond(Var_c_2,Var_c_1),bond(Var_c_1,Var_c_3),bond(Var_h_5,Var_c_3),doublebond(Var_c_7,Var_c_6),bond(Var_c_8,Var_c_6),doublebond(Var_o_9,Var_c_8).
+bond(Var_o_1,Var_c_5) :- pddl_type_hydrogen(Var_h_6),pddl_type_oxygen(Var_o_1),pddl_type_hydrogen(Var_h_2),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_5),pddl_type_hydrogen(Var_h_3),bond(Var_h_2,Var_o_1),bond(Var_h_3,Var_o_1),doublebond(Var_c_5,Var_c_4).
+bond(Var_c_5,Var_o_1) :- pddl_type_hydrogen(Var_h_6),pddl_type_oxygen(Var_o_1),pddl_type_hydrogen(Var_h_2),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_5),pddl_type_hydrogen(Var_h_3),bond(Var_h_2,Var_o_1),bond(Var_h_3,Var_o_1),doublebond(Var_c_5,Var_c_4).
+bond(Var_c_5,Var_c_4) :- pddl_type_hydrogen(Var_h_6),pddl_type_oxygen(Var_o_1),pddl_type_hydrogen(Var_h_2),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_5),pddl_type_hydrogen(Var_h_3),bond(Var_h_2,Var_o_1),bond(Var_h_3,Var_o_1),doublebond(Var_c_5,Var_c_4).
+bond(Var_c_4,Var_c_5) :- pddl_type_hydrogen(Var_h_6),pddl_type_oxygen(Var_o_1),pddl_type_hydrogen(Var_h_2),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_5),pddl_type_hydrogen(Var_h_3),bond(Var_h_2,Var_o_1),bond(Var_h_3,Var_o_1),doublebond(Var_c_5,Var_c_4).
+bond(Var_h_6,Var_c_4) :- pddl_type_hydrogen(Var_h_6),pddl_type_oxygen(Var_o_1),pddl_type_hydrogen(Var_h_2),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_5),pddl_type_hydrogen(Var_h_3),bond(Var_h_2,Var_o_1),bond(Var_h_3,Var_o_1),doublebond(Var_c_5,Var_c_4).
+bond(Var_c_4,Var_h_6) :- pddl_type_hydrogen(Var_h_6),pddl_type_oxygen(Var_o_1),pddl_type_hydrogen(Var_h_2),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_5),pddl_type_hydrogen(Var_h_3),bond(Var_h_2,Var_o_1),bond(Var_h_3,Var_o_1),doublebond(Var_c_5,Var_c_4).
+bond(Var_c_1,Var_c_3) :- pddl_type_carbon(Var_c_1),pddl_type_carbon(Var_c_8),pddl_type_carbon(Var_c_3),pddl_type_hydrogen(Var_h_10),pddl_type_carbon(Var_r1_2),pddl_type_oxygen(Var_o_6),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_9),pddl_type_oxygen(Var_o_7),doublebond(Var_o_6,Var_c_4),bond(Var_c_4,Var_c_5),bond(Var_c_3,Var_c_4),doublebond(Var_c_1,Var_c_3),bond(Var_r1_2,Var_c_1),bond(Var_h_10,Var_c_8),bond(Var_c_8,Var_c_9),doublebond(Var_o_7,Var_c_8).
+bond(Var_c_3,Var_c_1) :- pddl_type_carbon(Var_c_1),pddl_type_carbon(Var_c_8),pddl_type_carbon(Var_c_3),pddl_type_hydrogen(Var_h_10),pddl_type_carbon(Var_r1_2),pddl_type_oxygen(Var_o_6),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_9),pddl_type_oxygen(Var_o_7),doublebond(Var_o_6,Var_c_4),bond(Var_c_4,Var_c_5),bond(Var_c_3,Var_c_4),doublebond(Var_c_1,Var_c_3),bond(Var_r1_2,Var_c_1),bond(Var_h_10,Var_c_8),bond(Var_c_8,Var_c_9),doublebond(Var_o_7,Var_c_8).
+bond(Var_c_8,Var_c_1) :- pddl_type_carbon(Var_c_1),pddl_type_carbon(Var_c_8),pddl_type_carbon(Var_c_3),pddl_type_hydrogen(Var_h_10),pddl_type_carbon(Var_r1_2),pddl_type_oxygen(Var_o_6),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_9),pddl_type_oxygen(Var_o_7),doublebond(Var_o_6,Var_c_4),bond(Var_c_4,Var_c_5),bond(Var_c_3,Var_c_4),doublebond(Var_c_1,Var_c_3),bond(Var_r1_2,Var_c_1),bond(Var_h_10,Var_c_8),bond(Var_c_8,Var_c_9),doublebond(Var_o_7,Var_c_8).
+bond(Var_c_1,Var_c_8) :- pddl_type_carbon(Var_c_1),pddl_type_carbon(Var_c_8),pddl_type_carbon(Var_c_3),pddl_type_hydrogen(Var_h_10),pddl_type_carbon(Var_r1_2),pddl_type_oxygen(Var_o_6),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_9),pddl_type_oxygen(Var_o_7),doublebond(Var_o_6,Var_c_4),bond(Var_c_4,Var_c_5),bond(Var_c_3,Var_c_4),doublebond(Var_c_1,Var_c_3),bond(Var_r1_2,Var_c_1),bond(Var_h_10,Var_c_8),bond(Var_c_8,Var_c_9),doublebond(Var_o_7,Var_c_8).
+bond(Var_h_10,Var_c_3) :- pddl_type_carbon(Var_c_1),pddl_type_carbon(Var_c_8),pddl_type_carbon(Var_c_3),pddl_type_hydrogen(Var_h_10),pddl_type_carbon(Var_r1_2),pddl_type_oxygen(Var_o_6),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_9),pddl_type_oxygen(Var_o_7),doublebond(Var_o_6,Var_c_4),bond(Var_c_4,Var_c_5),bond(Var_c_3,Var_c_4),doublebond(Var_c_1,Var_c_3),bond(Var_r1_2,Var_c_1),bond(Var_h_10,Var_c_8),bond(Var_c_8,Var_c_9),doublebond(Var_o_7,Var_c_8).
+bond(Var_c_3,Var_h_10) :- pddl_type_carbon(Var_c_1),pddl_type_carbon(Var_c_8),pddl_type_carbon(Var_c_3),pddl_type_hydrogen(Var_h_10),pddl_type_carbon(Var_r1_2),pddl_type_oxygen(Var_o_6),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_9),pddl_type_oxygen(Var_o_7),doublebond(Var_o_6,Var_c_4),bond(Var_c_4,Var_c_5),bond(Var_c_3,Var_c_4),doublebond(Var_c_1,Var_c_3),bond(Var_r1_2,Var_c_1),bond(Var_h_10,Var_c_8),bond(Var_c_8,Var_c_9),doublebond(Var_o_7,Var_c_8).
+bond(Var_h_2,Var_o_4) :- pddl_type_oxygen(Var_o_4),pddl_type_carbon(Var_c_5),pddl_type_hydrogen(Var_h_2),pddl_type_oxygen(Var_o_3),pddl_type_hydrogen(Var_h_1),pddl_type_r_group(Var_r1_6),pddl_type_r_group(Var_r1_7),bond(Var_h_1,Var_o_3),bond(Var_h_2,Var_o_3),doublebond(Var_o_4,Var_c_5),bond(Var_c_5,Var_r1_7),bond(Var_r1_6,Var_c_5).
+bond(Var_o_4,Var_h_2) :- pddl_type_oxygen(Var_o_4),pddl_type_carbon(Var_c_5),pddl_type_hydrogen(Var_h_2),pddl_type_oxygen(Var_o_3),pddl_type_hydrogen(Var_h_1),pddl_type_r_group(Var_r1_6),pddl_type_r_group(Var_r1_7),bond(Var_h_1,Var_o_3),bond(Var_h_2,Var_o_3),doublebond(Var_o_4,Var_c_5),bond(Var_c_5,Var_r1_7),bond(Var_r1_6,Var_c_5).
+bond(Var_c_5,Var_o_3) :- pddl_type_oxygen(Var_o_4),pddl_type_carbon(Var_c_5),pddl_type_hydrogen(Var_h_2),pddl_type_oxygen(Var_o_3),pddl_type_hydrogen(Var_h_1),pddl_type_r_group(Var_r1_6),pddl_type_r_group(Var_r1_7),bond(Var_h_1,Var_o_3),bond(Var_h_2,Var_o_3),doublebond(Var_o_4,Var_c_5),bond(Var_c_5,Var_r1_7),bond(Var_r1_6,Var_c_5).
+bond(Var_o_3,Var_c_5) :- pddl_type_oxygen(Var_o_4),pddl_type_carbon(Var_c_5),pddl_type_hydrogen(Var_h_2),pddl_type_oxygen(Var_o_3),pddl_type_hydrogen(Var_h_1),pddl_type_r_group(Var_r1_6),pddl_type_r_group(Var_r1_7),bond(Var_h_1,Var_o_3),bond(Var_h_2,Var_o_3),doublebond(Var_o_4,Var_c_5),bond(Var_c_5,Var_r1_7),bond(Var_r1_6,Var_c_5).
+bond(Var_o_4,Var_c_5) :- pddl_type_oxygen(Var_o_4),pddl_type_carbon(Var_c_5),pddl_type_hydrogen(Var_h_2),pddl_type_oxygen(Var_o_3),pddl_type_hydrogen(Var_h_1),pddl_type_r_group(Var_r1_6),pddl_type_r_group(Var_r1_7),bond(Var_h_1,Var_o_3),bond(Var_h_2,Var_o_3),doublebond(Var_o_4,Var_c_5),bond(Var_c_5,Var_r1_7),bond(Var_r1_6,Var_c_5).
+bond(Var_c_5,Var_o_4) :- pddl_type_oxygen(Var_o_4),pddl_type_carbon(Var_c_5),pddl_type_hydrogen(Var_h_2),pddl_type_oxygen(Var_o_3),pddl_type_hydrogen(Var_h_1),pddl_type_r_group(Var_r1_6),pddl_type_r_group(Var_r1_7),bond(Var_h_1,Var_o_3),bond(Var_h_2,Var_o_3),doublebond(Var_o_4,Var_c_5),bond(Var_c_5,Var_r1_7),bond(Var_r1_6,Var_c_5).
+bond(Var_o_16,Var_h_1) :- pddl_type_oxygen(Var_o_16),pddl_type_carbon(Var_c_14),pddl_type_carbon(Var_c_2),pddl_type_hydrogen(Var_h_1),pddl_type_oxygen(Var_o_4),pddl_type_chemical_atom(Var_r1_9),pddl_type_oxygen(Var_o_15),pddl_type_carbon(Var_c_11),pddl_type_chemical_atom(Var_r2_17),pddl_type_chemical_atom(Var_r1_6),pddl_type_chemical_atom(Var_r1_7),pddl_type_carbon(Var_c_3),pddl_type_carbon(Var_c_5),pddl_type_chemical_atom(Var_r1_10),pddl_type_carbon(Var_c_8),pddl_type_chemical_atom(Var_r1_12),pddl_type_chemical_atom(Var_r1_13),bond(Var_h_1,Var_c_2),bond(Var_c_2,Var_c_3),bond(Var_c_3,Var_c_5),doublebond(Var_o_4,Var_c_3),bond(Var_c_5,Var_r1_7),bond(Var_c_5,Var_r1_6),bond(Var_c_5,Var_c_8),bond(Var_c_8,Var_r1_9),bond(Var_r1_10,Var_c_8),bond(Var_c_8,Var_c_11),bond(Var_c_11,Var_r1_13),bond(Var_c_11,Var_r1_12),bond(Var_c_11,Var_c_14),bond(Var_c_14,Var_o_16),doublebond(Var_o_15,Var_c_14),bond(Var_o_16,Var_r2_17).
+bond(Var_h_1,Var_o_16) :- pddl_type_oxygen(Var_o_16),pddl_type_carbon(Var_c_14),pddl_type_carbon(Var_c_2),pddl_type_hydrogen(Var_h_1),pddl_type_oxygen(Var_o_4),pddl_type_chemical_atom(Var_r1_9),pddl_type_oxygen(Var_o_15),pddl_type_carbon(Var_c_11),pddl_type_chemical_atom(Var_r2_17),pddl_type_chemical_atom(Var_r1_6),pddl_type_chemical_atom(Var_r1_7),pddl_type_carbon(Var_c_3),pddl_type_carbon(Var_c_5),pddl_type_chemical_atom(Var_r1_10),pddl_type_carbon(Var_c_8),pddl_type_chemical_atom(Var_r1_12),pddl_type_chemical_atom(Var_r1_13),bond(Var_h_1,Var_c_2),bond(Var_c_2,Var_c_3),bond(Var_c_3,Var_c_5),doublebond(Var_o_4,Var_c_3),bond(Var_c_5,Var_r1_7),bond(Var_c_5,Var_r1_6),bond(Var_c_5,Var_c_8),bond(Var_c_8,Var_r1_9),bond(Var_r1_10,Var_c_8),bond(Var_c_8,Var_c_11),bond(Var_c_11,Var_r1_13),bond(Var_c_11,Var_r1_12),bond(Var_c_11,Var_c_14),bond(Var_c_14,Var_o_16),doublebond(Var_o_15,Var_c_14),bond(Var_o_16,Var_r2_17).
+bond(Var_c_14,Var_c_2) :- pddl_type_oxygen(Var_o_16),pddl_type_carbon(Var_c_14),pddl_type_carbon(Var_c_2),pddl_type_hydrogen(Var_h_1),pddl_type_oxygen(Var_o_4),pddl_type_chemical_atom(Var_r1_9),pddl_type_oxygen(Var_o_15),pddl_type_carbon(Var_c_11),pddl_type_chemical_atom(Var_r2_17),pddl_type_chemical_atom(Var_r1_6),pddl_type_chemical_atom(Var_r1_7),pddl_type_carbon(Var_c_3),pddl_type_carbon(Var_c_5),pddl_type_chemical_atom(Var_r1_10),pddl_type_carbon(Var_c_8),pddl_type_chemical_atom(Var_r1_12),pddl_type_chemical_atom(Var_r1_13),bond(Var_h_1,Var_c_2),bond(Var_c_2,Var_c_3),bond(Var_c_3,Var_c_5),doublebond(Var_o_4,Var_c_3),bond(Var_c_5,Var_r1_7),bond(Var_c_5,Var_r1_6),bond(Var_c_5,Var_c_8),bond(Var_c_8,Var_r1_9),bond(Var_r1_10,Var_c_8),bond(Var_c_8,Var_c_11),bond(Var_c_11,Var_r1_13),bond(Var_c_11,Var_r1_12),bond(Var_c_11,Var_c_14),bond(Var_c_14,Var_o_16),doublebond(Var_o_15,Var_c_14),bond(Var_o_16,Var_r2_17).
+bond(Var_c_2,Var_c_14) :- pddl_type_oxygen(Var_o_16),pddl_type_carbon(Var_c_14),pddl_type_carbon(Var_c_2),pddl_type_hydrogen(Var_h_1),pddl_type_oxygen(Var_o_4),pddl_type_chemical_atom(Var_r1_9),pddl_type_oxygen(Var_o_15),pddl_type_carbon(Var_c_11),pddl_type_chemical_atom(Var_r2_17),pddl_type_chemical_atom(Var_r1_6),pddl_type_chemical_atom(Var_r1_7),pddl_type_carbon(Var_c_3),pddl_type_carbon(Var_c_5),pddl_type_chemical_atom(Var_r1_10),pddl_type_carbon(Var_c_8),pddl_type_chemical_atom(Var_r1_12),pddl_type_chemical_atom(Var_r1_13),bond(Var_h_1,Var_c_2),bond(Var_c_2,Var_c_3),bond(Var_c_3,Var_c_5),doublebond(Var_o_4,Var_c_3),bond(Var_c_5,Var_r1_7),bond(Var_c_5,Var_r1_6),bond(Var_c_5,Var_c_8),bond(Var_c_8,Var_r1_9),bond(Var_r1_10,Var_c_8),bond(Var_c_8,Var_c_11),bond(Var_c_11,Var_r1_13),bond(Var_c_11,Var_r1_12),bond(Var_c_11,Var_c_14),bond(Var_c_14,Var_o_16),doublebond(Var_o_15,Var_c_14),bond(Var_o_16,Var_r2_17).
+doublebond(Var_c_1,Var_c_2) :- pddl_type_carbon(Var_c_1),pddl_type_carbon(Var_c_3),pddl_type_carbon(Var_c_2),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_6),bond(Var_c_1,Var_c_2),doublebond(Var_c_4,Var_c_1),doublebond(Var_c_3,Var_c_2),doublebond(Var_c_6,Var_c_5).
+doublebond(Var_c_2,Var_c_1) :- pddl_type_carbon(Var_c_1),pddl_type_carbon(Var_c_3),pddl_type_carbon(Var_c_2),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_6),bond(Var_c_1,Var_c_2),doublebond(Var_c_4,Var_c_1),doublebond(Var_c_3,Var_c_2),doublebond(Var_c_6,Var_c_5).
+bond(Var_c_4,Var_c_1) :- pddl_type_carbon(Var_c_1),pddl_type_carbon(Var_c_3),pddl_type_carbon(Var_c_2),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_6),bond(Var_c_1,Var_c_2),doublebond(Var_c_4,Var_c_1),doublebond(Var_c_3,Var_c_2),doublebond(Var_c_6,Var_c_5).
+bond(Var_c_1,Var_c_4) :- pddl_type_carbon(Var_c_1),pddl_type_carbon(Var_c_3),pddl_type_carbon(Var_c_2),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_6),bond(Var_c_1,Var_c_2),doublebond(Var_c_4,Var_c_1),doublebond(Var_c_3,Var_c_2),doublebond(Var_c_6,Var_c_5).
+bond(Var_c_3,Var_c_2) :- pddl_type_carbon(Var_c_1),pddl_type_carbon(Var_c_3),pddl_type_carbon(Var_c_2),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_6),bond(Var_c_1,Var_c_2),doublebond(Var_c_4,Var_c_1),doublebond(Var_c_3,Var_c_2),doublebond(Var_c_6,Var_c_5).
+bond(Var_c_2,Var_c_3) :- pddl_type_carbon(Var_c_1),pddl_type_carbon(Var_c_3),pddl_type_carbon(Var_c_2),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_6),bond(Var_c_1,Var_c_2),doublebond(Var_c_4,Var_c_1),doublebond(Var_c_3,Var_c_2),doublebond(Var_c_6,Var_c_5).
+bond(Var_c_6,Var_c_3) :- pddl_type_carbon(Var_c_1),pddl_type_carbon(Var_c_3),pddl_type_carbon(Var_c_2),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_6),bond(Var_c_1,Var_c_2),doublebond(Var_c_4,Var_c_1),doublebond(Var_c_3,Var_c_2),doublebond(Var_c_6,Var_c_5).
+bond(Var_c_3,Var_c_6) :- pddl_type_carbon(Var_c_1),pddl_type_carbon(Var_c_3),pddl_type_carbon(Var_c_2),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_6),bond(Var_c_1,Var_c_2),doublebond(Var_c_4,Var_c_1),doublebond(Var_c_3,Var_c_2),doublebond(Var_c_6,Var_c_5).
+bond(Var_c_4,Var_c_5) :- pddl_type_carbon(Var_c_1),pddl_type_carbon(Var_c_3),pddl_type_carbon(Var_c_2),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_6),bond(Var_c_1,Var_c_2),doublebond(Var_c_4,Var_c_1),doublebond(Var_c_3,Var_c_2),doublebond(Var_c_6,Var_c_5).
+bond(Var_c_5,Var_c_4) :- pddl_type_carbon(Var_c_1),pddl_type_carbon(Var_c_3),pddl_type_carbon(Var_c_2),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_6),bond(Var_c_1,Var_c_2),doublebond(Var_c_4,Var_c_1),doublebond(Var_c_3,Var_c_2),doublebond(Var_c_6,Var_c_5).
+bond(Var_c_6,Var_c_5) :- pddl_type_carbon(Var_c_1),pddl_type_carbon(Var_c_3),pddl_type_carbon(Var_c_2),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_6),bond(Var_c_1,Var_c_2),doublebond(Var_c_4,Var_c_1),doublebond(Var_c_3,Var_c_2),doublebond(Var_c_6,Var_c_5).
+bond(Var_c_5,Var_c_6) :- pddl_type_carbon(Var_c_1),pddl_type_carbon(Var_c_3),pddl_type_carbon(Var_c_2),pddl_type_carbon(Var_c_5),pddl_type_carbon(Var_c_4),pddl_type_carbon(Var_c_6),bond(Var_c_1,Var_c_2),doublebond(Var_c_4,Var_c_1),doublebond(Var_c_3,Var_c_2),doublebond(Var_c_6,Var_c_5).
+goal__reachable :- bond(c1,c2),bond(c2,c1),bond(c1,h1),bond(h1,c1),bond(c1,h2),bond(h2,c1),bond(c1,h3),bond(h3,c1),bond(c11,c2),bond(c2,c11),bond(c11,c12),bond(c12,c11),bond(c11,h20),bond(h20,c11),bond(c11,h21),bond(h21,c11),bond(c12,c13),bond(c13,c12),doublebond(c12,o6),doublebond(o6,c12),bond(c13,c8),bond(c8,c13),bond(c13,h23),bond(h23,c13),bond(c13,h24),bond(h24,c13),bond(c2,c7),bond(c7,c2),bond(c2,c3),bond(c3,c2),bond(c3,h4),bond(h4,c3),bond(c3,h5),bond(h5,c3),bond(c3,h6),bond(h6,c3),bond(c7,c8),bond(c8,c7),bond(c7,h51),bond(h51,c7),bond(c7,h19),bond(h19,c7),doublebond(c8,o4),doublebond(o4,c8).
