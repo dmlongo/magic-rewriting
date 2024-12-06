@@ -13,6 +13,11 @@ class Predicate:
     def __repr__(self) -> str:
         return f"{self.name}({', '.join(self.args)})"
 
+    def get_name(self) -> str:
+        return f"{self.name}"
+
+    def arity(self):
+        return len(self.args)
 
 @dataclass
 class Fact:
@@ -25,6 +30,12 @@ class Fact:
     def __repr__(self) -> str:
         return f"{self.predicate}."
 
+    def get_predicate_symbol(self) -> str:
+        return f"{self.predicate.get_name()}"
+
+
+    def get_arity(self) -> int:
+        return self.predicate.arity()
 
 @dataclass
 class Rule:
@@ -75,6 +86,16 @@ class DatalogProgram:
 
     def is_predicate_intensional(self, predicate: Predicate) -> bool:
         return predicate.name in self.head_names
+
+    def get_extensional_predicates(self):
+        """
+        Returns a list [(s1, a1), ...] where sN is the N-th predicate symbol
+        occurring in the initial set of facts, and aN is its arity.
+        """
+        symbols = set()
+        for f in self.facts:
+            symbols.add((f.get_predicate_symbol(), f.get_arity()))
+        return symbols
 
     def __repr__(self) -> str:
         facts_str = "\n".join(map(str, self.facts))

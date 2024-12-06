@@ -1,3 +1,5 @@
+#! /usr/bin/env python
+
 import argparse
 import sys
 from typing import List, Set, Tuple
@@ -56,18 +58,23 @@ def apply_magic_set_transformation(
     )
     magic_rules = execute_generation(adorned_rules)
     modified_rules = modification_step(adorned_rules)
-    magic_seeds, query_rules = generate_magic_facts_and_rules(
-        query_adorned_atoms, query_adorned_predicates
-    )
-
     all_adorned_predicates = get_unique_adorned_predicates(adorned_rules)
     adorned_facts = adorn_facts(program.facts, all_adorned_predicates)
 
+    magic_seeds, query_rules = generate_magic_facts_and_rules(
+        query_adorned_atoms, all_adorned_predicates
+    )
+
     magic_program = DatalogProgram()
-    magic_program.facts.extend(program.facts + adorned_facts)
+    magic_program.facts.extend(program.facts)
+    extensional_predicates = magic_program.get_extensional_predicates()
+    magic_program.facts.extend(adorned_facts)
     magic_program.rules.extend(magic_rules + modified_rules + query_rules)
     magic_program.facts.extend(magic_seeds)
     magic_program.set_query(program.query)
+
+    show_rules = get_show_rules(extensional_predicates)
+    magic_program.rules.extend(show_rules)
 
     return magic_program
 
@@ -75,6 +82,22 @@ def apply_magic_set_transformation(
 def flatten(list_of_lists: List[List]) -> List:
     """Flatten a list of lists into a single list."""
     return [item for sublist in list_of_lists for item in sublist]
+
+
+def get_show_rules(predicates):
+    """
+    Introduce rules like
+
+    #show at/2.
+
+    to filter extra predicates which we don't care about.
+    """
+
+    shows = []
+    for symbol, arity in predicates:
+        shows += [f"#show {symbol}/{arity}."]
+    shows += [f"#show goal__reachable/0."]
+    return shows
 
 
 def get_unique_adorned_predicates(adorned_rules: List[Rule]) -> List[Tuple[str, str]]:

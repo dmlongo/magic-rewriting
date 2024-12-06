@@ -28,12 +28,10 @@ def generate_magic_facts_and_rules(
         magic_seed_fact = create_magic_seed(adorned_atom)
         magic_seed_facts.append(magic_seed_fact)
 
-    for adorned_predicate in query_adorned_predicates:
-        variable_names = generate_variable_names("Var_", len(adorned_predicate.args))
-        predicate_head = Predicate(adorned_predicate.name, variable_names)
-        predicate_body = AdornedPredicate(
-            adorned_predicate.name, variable_names, adorned_predicate.binding_pattern
-        )
+    for head, adornment in query_adorned_predicates:
+        variable_names = generate_variable_names("Var_", len(adornment))
+        predicate_head = Predicate(head, variable_names)
+        predicate_body = AdornedPredicate(head, variable_names, adornment)
         query_rule = Rule(predicate_head, [predicate_body])
         query_rules.append(query_rule)
 
